@@ -52,7 +52,7 @@
         android:src="@android:drawable/ic_input_add"
         android:elevation="6dp" />
 
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/btnLogout"
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -60,7 +60,7 @@
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:src="@android:drawable/ic_lock_power_off"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
         app:tint="@color/white" />
 
 </RelativeLayout>
